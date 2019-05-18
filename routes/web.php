@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+//后台
+Route::any('/admin','Admin\IndexController@index');
