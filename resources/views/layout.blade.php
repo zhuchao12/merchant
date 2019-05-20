@@ -59,17 +59,10 @@
                     <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
                     <ul class="layui-nav layui-nav-tree"  lay-filter="test">
                         <li class="layui-nav-item">
-                            <a href=" ">测评</a>
-                            <dl class="layui-nav-child">
-                                <dd><a href=""></a></dd>
-
-                            </dl>
-                        </li>
-                        <li class="layui-nav-item">
                             <a href="javascript:;">商品管理</a>
                             <dl class="layui-nav-child">
                                 <dd><a href="/goods">商品添加</a></dd>
-                                <dd><a href="/goodslist">商品展示</a></dd>
+                                <dd><a href="/admin/goodsList">商品展示</a></dd>
                             </dl>
                         </li>
                         <li class="layui-nav-item">
