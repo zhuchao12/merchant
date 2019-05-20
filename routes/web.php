@@ -20,7 +20,7 @@ Route::get('/', function () {
 Route::any('/admin','Admin\IndexController@index');
 
 //商品属性管理
-Route::any('/attr/basic/add', 'Attr\AttrController@addBasicAttr');//基本属性添加
+Route::any('/attr/basic/add', 'Attr\AttrController@addBasicAttr');//基本属性添加//aaa
 Route::any('/attr/sale/add', 'Attr\AttrController@addSaleAttr');//销售属性添加
 Route::any('/attr/basic/show', 'Attr\AttrController@basicAttrShow');//基本属性展示
 Route::any('/attr/sale/show', 'Attr\AttrController@saleAttrShow');//销售属性展示
