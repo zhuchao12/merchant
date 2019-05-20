@@ -7,7 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="{{asset('layui/css/layui.css')}}">
     <script src="{{asset('layui/layui.js')}}"></script>
-    <script src="{{asset('js/jquery-3.1.1.min.js')}}"></script>
+    <script src="{{asset('/js/jquery-3.2.1.min.js')}}"></script>
 
 </head>
 <script>

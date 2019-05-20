@@ -4,9 +4,10 @@ namespace App\Model;
 
 use Illuminate\Database\Eloquent\Model;
 
-class BrandModel extends Model
+class SaleAttrModel extends Model
 {
-    //
-    public $table='shop_brand';
+    public $table = 'shop_basic_attr_value';
     public $timestamps = false;
+
+
 }
